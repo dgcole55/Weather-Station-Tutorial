@@ -44,7 +44,8 @@ This tutorial was constructed with KOS version 1.0.0-epsilon for the **BeagleBon
 The steps for this tutorial and solutions for each step are provided in branches to this ``main`` repository.
 
 - Step 0:  Initial setup
-- Step 1:  Create the I2C server and communicate with it
-- Step 2:  Communicate with the BME280 sensor
+- Step 1:  I2C setup 
+- Step 2:  Create a C app and connect it to the I2C server
+- Step 3:  Add a driver for the BME280 Atmospheric Sensor
 
 Other steps will be added in the future.
