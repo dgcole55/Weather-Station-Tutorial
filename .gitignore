@@ -1,72 +1,22 @@
-# directories
-solution/
-step2_/
-step3/
 
-# === Shell files ===
-diffx.sh
+# build and dependencies=
+**/_build
+**/deps
+mix.lock
 
-# === Elixir / Mix ===
-_build/
-deps/
-erl_crash.dump
-*.ez
-*.beam
+# reload files
+/reload*
+/kos-reload*
 
-# === Embedded C (build outputs) ===
-*.o
-*.obj
-*.so
-*.a
-*.out
-*.elf
-*.hex
-*.map
-*.bin
-*.d
-*.exe
-
-# If using a build directory for C code
-/build/
-*.dep
-*.cmd
-*.mod.c
-*.ko
-
-# === Make / CMake / Ninja / etc. ===
-Makefile~
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-compile_commands.json
-*.mk
-*.swp
-
-# === OS & Editor Files ===
-.DS_Store
-.vscode/
-
-# === Logs & Temp ===
-*.log
-*.tmp
-*.bak
-*.backup
-*.orig
-*.rej
-
-# === Secrets & Environment ===
-.env
-.env.*
-.envrc
+# super secret stuff
+/*_secrets
 simulation_secrets/
-*.key
-*.pem
-*.crt
 
-# === Coverage / Testing / Debug ===
-cover/
-*.gcda
-*.gcno
-*.gcov
-test/fixtures/
-test/tmp/
+# images
+*.img
+
+# that pesky .DS_Store file
+.DS_Store
+
+# VSCode stuff
+.vscode/
